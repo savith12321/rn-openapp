@@ -23,7 +23,7 @@ import { openApp } from "rn-openapp";
 const examplePackageId = "com.example.packageid";
 
 openApp(examplePackageId)
-  .then(result => cosnole.log(result))
+  .then(result => console.log(result))
   .catch(e => console.warn(e));
 ```
 
